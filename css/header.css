@@ -17,7 +17,6 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-family: Neicha;
   font-size: 2.2rem;
   color: var(--color-white);
 }
@@ -116,22 +115,6 @@
 
 .sound-on {
   background-image: url(../assets/svg/audio.svg);
-}
-
-.button-snow {
-  width: 3.5rem;
-  height: 3.5rem;
-  border: none;
-  color: var(--color-white);
-  cursor: pointer;
-  background-color: transparent;
-  font-size: 4rem;
-  line-height: 4rem;
-  padding: 0;
-}
-
-.button-snow-active {
-  font-size: 2rem;
 }
 
 @media (max-width: 1170px) {

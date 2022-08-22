@@ -1,15 +1,11 @@
 @import "./definitions.css";
-@import "./start.css";
 @import "./card.css";
 @import "./footer.css";
 @import "./header.css";
 @import "./ornaments.css";
 @import "./popup.css";
-@import "./treePage.css";
-@import "./tree.css";
-@import "./decorationCard.css";
-@import "./lights.css";
-@import "./snowflakes.css";
+@import "./nouislider.min.css";
+@import "./slider.css";
 
 body {
   box-sizing: border-box;
@@ -20,15 +16,13 @@ body {
   color: white;
   text-transform: uppercase;
   margin: 0;
-  overflow: hidden;
 }
 
 .main {
   position: relative;
-  min-height: calc(100vh - 7rem);
+  top: 7rem;
   background-image: url(../assets/backgroundg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  min-height: calc(100vh - 9.5rem);
 }
 
 .hidden {
@@ -51,7 +45,6 @@ body {
 }
 
 .h2 {
-  font-family: Neicha;
   font-size: 2.5rem;
   color: var(--color-white);
   font-weight: 400;
@@ -59,7 +52,6 @@ body {
 }
 
 .h3 {
-  font-family: Neicha;
   font-size: 2rem;
   color: var(--color-white);
   font-weight: 200;
