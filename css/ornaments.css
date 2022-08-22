@@ -295,13 +295,17 @@
   }
 
   .reset {
-    width: 2.4rem;
+    width: 24rem;
   }
 }
 
 @media (max-width: 800px) {
   .reset {
     width: 20rem;
+  }
+
+  .settings-reset-tree {
+    width: 12rem;
   }
 
   .slider {
