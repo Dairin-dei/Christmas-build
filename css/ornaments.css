@@ -213,6 +213,8 @@
   flex-wrap: wrap;
   column-gap: 1rem;
   row-gap: 1rem;
+  max-height: calc(100vh - 11rem);
+  overflow-y: auto;
 }
 
 .no-by-filters {
@@ -302,10 +304,6 @@
 @media (max-width: 800px) {
   .reset {
     width: 20rem;
-  }
-
-  .settings-reset-tree {
-    width: 12rem;
   }
 
   .slider {

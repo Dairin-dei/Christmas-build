@@ -12,11 +12,9 @@
 
 .tree-container {
   position: relative;
-  align-self: flex-end;
   width: 50rem;
   height: 71.4rem;
   flex-shrink: 0;
-  bottom: 2rem;
 }
 
 .tree-pattern {

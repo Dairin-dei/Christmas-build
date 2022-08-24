@@ -7,7 +7,7 @@
   padding-left: 2rem;
   padding-right: 2rem;
   height: 7rem;
-  width: 100%;
+  width: calc(100% - 3.6rem);
   justify-content: space-between;
   align-items: center;
   background-color: var(--color-black);
@@ -131,7 +131,7 @@
 }
 
 .button-snow-active {
-  font-size: 3.5rem;
+  font-size: 2rem;
 }
 
 @media (max-width: 1170px) {
